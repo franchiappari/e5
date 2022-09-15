@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700;900&display=swap');
+
+
+:root {
+    --gris: #252525;
+    --amarillo: #FFA400;
+    --rose: #FC2933;
+    --gradient1: linear-gradient(90deg, rgba(255, 161, 0, 1) 0%, rgba(251, 16, 61, 1) 35%);
+
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+
+}
+
+#header {
+    margin: 10px;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+
+}
+
+.hicono {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 400px;
+
+}
+
+.texticon {
+
+    font-weight: 600;
+    font-size: 20px;
+    background: linear-gradient(to right, #FFA100, #FB103D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.headerderecha {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.hhome {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: var(--amarillo);
+    font-weight: bold;
+    font-size: 10px;
+
+}
+
+.hcarrito {
+    width: 115%;
+    margin-top: 2px;
+
+}
+
+#hero {
+    margin: 50px 100px 50px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.herotittle {
+    color: white;
+}
+
+.heroh1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.heroh2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.herotext h3 {
+    margin-top: 10px;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+
+}
+
+.herobutton a {
+    margin-top: 20px;
+    max-width: 166px;
+    padding: 12px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(255, 161, 0);
+    background: linear-gradient(90deg, rgba(255, 161, 0, 1) 0%, rgba(251, 16, 61, 1) 100%);
+    border-radius: 1em;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.heroderecha {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+
+}
+
+.heroimg1 {
+    position: relative;
+    z-index: 1;
+    background: none;
+    bottom: 20px;
+
+
+
+}
+
+.heroimg2 {
+    position: relative;
+    z-index: 2;
+    right: 145px;
+    background: none;
+
+}
+
+#card-section {
+    background: none;
+    margin: 50px 100px 50px 200px;
+
+}
+
+.recomendados {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+.card-title1 {
+    color: white;
+    background: none;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+
+
+}
+
+.cardrecom {
+    padding: 10px 10px;
+    background-color: var(--gris);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+
+}
+
+.cardrecomimg img {
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    background: none;
+
+}
+
+.cardrecomtext {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.cardrecomtext h2 {
+    color: white;
+    font-size: 20px;
+
+}
+
+.cardrecomtext h3 {
+    color: #959595;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cardrecomtext h4 {
+    font-weight: 600;
+    font-size: 20px;
+    background: linear-gradient(to right, #FFA100, #FB103D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.cardrecombutton a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 15px;
+    color: white;
+    background: rgb(255, 161, 0);
+    background: linear-gradient(90deg, rgba(255, 161, 0, 1) 0%, rgba(251, 16, 61, 1) 100%);
+    border-radius: 1rem;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.card-title2 {
+    color: white;
+    background: none;
+    font-weight: 600;
+    font-size: 20px;
+    display: block;
+    margin: 100px 0px 20px 0px;
+
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.cardcateg {
+    padding: 20px 30px;
+    max-width: 250px;
+    background-color: var(--gris);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    gap: 15px;
+
+}
+
+
+.cardcateg h2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.rect {
+    padding: 2px 15px;
+    background: linear-gradient(to right, #FFA100, #FB103D);
+    border-radius: 1rem;
+
+
+}
+.card-title3 {
+    color: white;
+    background: none;
+    font-weight: 400;
+    font-size: 20px;
+    display: block;
+    margin: 100px 0px 20px 0px;
+
+
+}
+
+.populares {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardpopu {
+    padding: 15px 15px;
+    background-color: var(--gris);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    margin: 15px;
+
+
+}
+
+.cardpopuimg img {
+
+    display: flex;
+    border-radius: 1rem;
+    background: none;
+    
+
+}
+
+.cardpoputext {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.cardpoputext1 h2 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+
+
+}
+
+.cardpoputext2 h3 {
+    color: #959595;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.cardpoputext3 h4 {
+    font-weight: 600;
+    font-size: 20px;
+    background: linear-gradient(to right, #FFA100, #FB103D);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.cardpoputext3 a {
+
+    padding: 10px 15px;
+    color: white;
+    background: rgb(255, 161, 0);
+    background: linear-gradient(90deg, rgba(255, 161, 0, 1) 0%, rgba(251, 16, 61, 1) 100%);
+    border-radius: 1rem;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.cardpoputext3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
