@@ -40,16 +40,14 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 40px;
-
-
+   
 }
 
 .hicono {
     display: flex;
     align-items: center;
     gap: 30px;
-    width: 400px;
-
+    flex-wrap: wrap;
 }
 
 .texticon {
@@ -93,6 +91,7 @@ body {
     justify-content: space-between;
     margin-left: 130px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 
@@ -172,6 +171,8 @@ body {
     flex-direction: row;
     gap: 15px;
     margin: 0px 130px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card-title1 {
@@ -184,15 +185,15 @@ body {
 }
 
 .cardrecom {
-    padding: 10px 10px;
+    padding: 5px 5px;
     background-color: var(--gris);
     border-radius: 1em;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 20px;
-    width: 40%;
+    gap: 5px;
+    height: 100px;
 }
 
 .cardcateg img{
@@ -213,7 +214,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-
+    flex-wrap: wrap;
 }
 
 .cardrecomtext h2 {
@@ -268,7 +269,9 @@ body {
     align-items: center;
     flex-direction: row;
     margin: 0px 130px;
+    flex-wrap: wrap;
 }
+
 
 .cardcateg {
     padding: 15px 15px;
@@ -281,6 +284,7 @@ body {
     border-radius: 1rem;
     gap: 15px;
     height: 150px;
+    margin-bottom: 10px;
 }
 
 
@@ -332,6 +336,7 @@ body {
     align-items: center;
     align-content: flex-start;
     margin-bottom: 15px;
+    max-width: 1200px;
 }
 
 .cardpopuimg img {
@@ -410,6 +415,7 @@ body {
     align-items: center;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .footer2{
     display: flex;
@@ -419,4 +425,40 @@ body {
 }
 .spanfoot{
     font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .heroimg1{
+        width: 150px;
+    }
+    .heroimg2{
+        margin-left: 40px;
+        width: 250px;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .heroimg1{
+        width: 50px;
+    }
+    .heroimg2{
+        margin-left: 100px;
+        width: 100px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 400px) {
+    .heroimg1{
+        margin-top: 50px;
+        width: 40px;
+    }
+    .heroimg2{
+        margin-left: 120px;
+        width: 50px;
+    }
 }
